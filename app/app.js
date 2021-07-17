@@ -5,8 +5,6 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
 const setupAllRoutes = require('./routes')
 
-
-
 function setupCors(e) {
   return e.use(cors())
 }
