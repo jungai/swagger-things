@@ -1,6 +1,6 @@
 # Swagger Things
 
-- [ ] open-api 3.0
+- [x] open-api 3.0
 - [ ] swagger 
 - [ ] swagger-express
 - [ ] authentication??
