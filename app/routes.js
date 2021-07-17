@@ -1,16 +1,16 @@
+const hello = require('./controllers/hello')
+
 function setupAllRoutes(e) {
-    /**
-     * @openapi
-     * /:
-     *   get:
-     *     description: Welcome to swagger-jsdoc!
-     *     responses:
-     *       200:
-     *         description: Returns a mysterious string.
-     */
-    e.get('/', (_req, res) => {
-        res.json({ msg: "hello junior" })
-    })
+		/**
+		 * @openapi
+		 * /:
+		 *   get:
+		 *     description: hello api
+		 *     responses:
+		 *       200:
+		 *         description: Returns a obj msg string.
+		 */
+    e.get('/', hello)
 
     return e
 }
